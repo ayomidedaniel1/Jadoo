@@ -1,0 +1,64 @@
+.jadoo__service-container__service {
+  display: flex;
+  flex-direction: column;
+  padding: 2rem;
+  margin: 0 2rem;
+}
+
+.jadoo__service-container__service:hover {
+  background: #ffffff;
+  box-shadow: 0px 100px 80px rgba(0, 0, 0, 0.02),
+    0px 64.8148px 46.8519px rgba(0, 0, 0, 0.0151852),
+    0px 38.5185px 25.4815px rgba(0, 0, 0, 0.0121481),
+    0px 20px 13px rgba(0, 0, 0, 0.01),
+    0px 8.14815px 6.51852px rgba(0, 0, 0, 0.00785185),
+    0px 1.85185px 3.14815px rgba(0, 0, 0, 0.00481481);
+  border-radius: 2.5rem;
+}
+
+.jadoo__service-container__service-img {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jadoo__service-container__service-img img {
+  width: 6rem;
+  height: 5rem;
+}
+
+.jadoo__service-container__service-title {
+  flex: 1;
+  padding: 1rem 0;
+}
+
+.jadoo__service-container__service-title h1 {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 1.5rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #1e1d4c;
+}
+
+.jadoo__service-container__service-title div {
+  width: 2.5rem;
+  height: 0.2rem;
+
+  background: var(--bg);
+  box-shadow: 0 4px 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 0.25rem;
+}
+
+.jadoo_service-container__service-text {
+  display: flex;
+}
+
+.jadoo_service-container__service-text p {
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #5e6282;
+}

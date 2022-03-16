@@ -1,0 +1,56 @@
+.jadoo__subscription {
+  display: flex;
+  flex-direction: column;
+  background: #bdb7d3;
+  border-radius: 129px 20px 20px 20px;
+  margin: 0 4rem;
+}
+
+.jadoo__subscription h1 {
+  font-family: var(--font-poppins);
+  color: var(--color-text);
+  font-weight: 600;
+  font-size: 2.1rem;
+  line-height: 3.4rem;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  margin-bottom: 4rem;
+  width: 53rem;
+}
+
+.jadoo__subscription-content {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.jadoo__subscription-input {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.jadoo__subscription-input input {
+  margin-right: 1rem;
+  width: 27rem;
+  height: 4rem;
+  border-radius: 0.7rem;
+}
+
+.jadoo__subscription-input button {
+  font-family: var(--font-sans);
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 2rem;
+  text-align: center;
+  color: #ffffff;
+
+  background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
+  border-radius: 10px;
+
+  width: 11rem;
+  height: 4rem;
+}

@@ -1,0 +1,121 @@
+.jadoo_hero {
+  position: relative;
+  display: flex;
+}
+
+.jadoo__hero-content {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: flex-start;
+  flex-direction: column;
+  padding: 1rem 0;
+}
+
+.jadoo__hero-content h2 {
+  font-family: var(--font-poppins);
+  font-weight: 700;
+  font-size: 1.25rem;
+  line-height: 1.875rem;
+  text-transform: uppercase;
+  color: #df6951;
+  margin-bottom: 1rem;
+}
+
+.jadoo__hero-content h1 {
+  color: var(--color-text);
+  font-family: var(--font-volkov);
+  font-weight: 700;
+  font-size: 5.25rem;
+  line-height: 5.5625rem;
+  letter-spacing: -0.04em;
+  width: 45rem;
+  margin-bottom: 1rem;
+}
+
+.jadoo__hero-content p {
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: 1rem;
+  line-height: 1.875rem;
+  color: #5e6282;
+  width: 29.8125rem;
+
+  margin-bottom: 1rem;
+}
+
+.jadoo__hero-cta {
+  width: 23.6875rem;
+}
+
+.jadoo__hero-cta_more {
+  font-family: var(--font-sans);
+  font-weight: 500;
+  font-size: 1.125rem;
+  line-height: 1.4375rem;
+  text-align: center;
+  color: #ffffff;
+  cursor: pointer;
+
+  background: #f1a501;
+  box-shadow: 0px 20px 35px rgba(241, 165, 1, 0.15);
+  border-radius: 10px;
+  margin-right: 1rem;
+
+  width: 10.625rem;
+  height: 3.75rem;
+}
+
+.jadoo__hero-cta_more:hover {
+  font-size: 1.2rem;
+}
+
+.jadoo__hero-cta_play {
+  font-family: var(--font-poppins);
+  font-weight: 500;
+  font-size: 1.0625rem;
+  line-height: 1.625rem;
+  color: #686d77;
+  cursor: pointer;
+
+  width: 10.3125rem;
+  height: 3.75rem;
+
+  box-shadow: 0px 15px 35px rgba(223, 105, 81, 0.3);
+  border-radius: 10px;
+}
+
+.jadoo__hero-cta_play:hover {
+  font-size: 1.2rem;
+}
+
+.jadoo__hero-image {
+  flex: 1;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  width: 40rem;
+  height: 40rem;
+  right: 3vw;
+  top: 9rem;
+}
+
+.jadoo__hero-image img {
+  width: 100%;
+  height: 100%;
+}
+
+@media screen and (max-width: 1150px) {
+  .jadoo__hero-image {
+    position: absolute;
+    width: 32rem;
+    height: 30rem;
+    right: 3vw;
+    top: 9rem;
+  }
+
+  .jadoo__hero-content h1 {
+    width: 30rem;
+  }
+}

@@ -1,0 +1,161 @@
+.jadoo__navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+
+  padding: 2rem 4rem;
+}
+
+.jadoo__navbar-links {
+  flex: 1;
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.jadoo__navbar-links_logo {
+  margin-right: 2rem;
+}
+
+.jadoo__navbar-links_logo img {
+  width: 114.91px;
+  height: 33.99px;
+}
+
+.jadoo__navbar-links_container {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+.jadoo__navbar-links_container a {
+  font-size: 1.4rem;
+}
+
+.jadoo__navbar-links_container a:hover {
+  border-bottom: 0.2rem solid var(--bg);
+  padding-bottom: 0.5rem;
+}
+
+.jadoo__navbar-links_container button:hover {
+  font-size: 1.4rem;
+}
+
+.jadoo__navbar-links_container p,
+.jadoo__navbar-menu_container-links p {
+  font-family: var(--font-sans);
+  font-weight: 400;
+  cursor: pointer;
+  margin: 0 3rem;
+  font-weight: bold;
+}
+
+.jadoo__navbar-links_container button,
+.jadoo__navbar-menu_container-link button {
+  font-family: var(--font-sans);
+  border: 1px solid #212832;
+  width: 102px;
+  height: 40px;
+  font-weight: 500;
+  font-size: 1.3rem;
+  line-height: 1.5rem;
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+  font-weight: bold;
+}
+
+.jadoo__navbar-menu {
+  margin-left: 1rem;
+  position: relative;
+  display: none;
+}
+
+.jadoo__navbar-menu svg {
+  cursor: pointer;
+}
+
+.jadoo__navbar-menu_container {
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  flex-direction: column;
+
+  text-align: end;
+  background-color: var(--bg);
+  padding: 2rem;
+  position: absolute;
+  right: 0;
+  margin-top: 1rem;
+  min-width: 210px;
+  border-radius: 5px;
+  box-shadow: 0 0 5 rgba(0, 0, 0, 0.2);
+}
+
+.jadoo__navbar-menu_container p {
+  font-family: var(--font-sans);
+  font-weight: bold;
+  box-sizing: border-box;
+  cursor: pointer;
+  font-size: 1.4rem;
+}
+
+.jadoo__navbar-menu_container button {
+  font-family: var(--font-sans);
+  border: 1px solid #212832;
+  font-weight: bold;
+  width: 102px;
+  height: 40px;
+  background: transparent;
+  box-sizing: border-box;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.jadoo__navbar-menu_container button,
+.jadoo__navbar-menu_container p {
+  margin: 1rem 1rem;
+}
+
+@media screen and (max-width: 700px) {
+  .jadoo__navbar {
+    padding: 2rem 4rem;
+  }
+
+  .jadoo__navbar-links_container {
+    display: none;
+  }
+
+  .jadoo__navbar-menu {
+    display: flex;
+  }
+}
+
+@media screen and (max-width: 550px) {
+  .jadoo__navbar-links_container {
+    display: none;
+  }
+
+  .jadoo__navbar-menu {
+    display: flex;
+    z-index: 1;
+  }
+
+  .jadoo__navbar {
+    padding: 2rem;
+  }
+
+  .jadoo__navbar-links_container button {
+    display: none;
+  }
+
+  .jadoo__navbar-menu_container {
+    top: 20px;
+  }
+
+  .jadoo__navbar-menu_container-links button {
+    display: block;
+  }
+}

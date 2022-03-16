@@ -1,0 +1,47 @@
+.jadoo__services {
+  width: 100%;
+}
+
+.jadoo__services-heading {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jadoo__services-img {
+  flex: 1;
+  display: flex;
+  justify-content: flex-end;
+  align-items: flex-end;
+  position: absolute;
+
+  width: 9.5rem;
+  height: 10rem;
+  left: 90rem;
+}
+
+.jadoo__services-heading h2 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #5e6282;
+}
+
+.jadoo__services-heading h1 {
+  font-family: var(--font-volkov);
+  font-weight: 700;
+  font-size: 3.4rem;
+  line-height: 4rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+.jadoo__services-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 1rem;
+}

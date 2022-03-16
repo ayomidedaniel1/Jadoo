@@ -1,0 +1,45 @@
+.jadoo__destinations {
+  width: 100%;
+  position: relative;
+}
+
+.jadoo_destinations-heading {
+  flex: 1;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.jadoo_destinations-img {
+  position: absolute;
+  width: 6rem;
+  height: 16rem;
+  bottom: 7rem;
+  right: 8rem;
+  z-index: -1;
+}
+
+.jadoo_destinations-heading h2 {
+  font-family: var(--font-poppins);
+  font-weight: 600;
+  font-size: 1.3rem;
+  line-height: 1.8rem;
+  text-align: center;
+  color: #5e6282;
+}
+
+.jadoo_destinations-heading h1 {
+  font-family: var(--font-volkov);
+  font-weight: 700;
+  font-size: 3.4rem;
+  line-height: 4rem;
+  text-align: center;
+  text-transform: capitalize;
+  color: var(--color-text);
+}
+
+.jadoo__destinations-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(20rem, 1fr));
+  gap: 0.1rem;
+}
