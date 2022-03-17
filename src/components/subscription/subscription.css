@@ -47,6 +47,7 @@
   line-height: 2rem;
   text-align: center;
   color: #ffffff;
+  cursor: pointer;
 
   background: linear-gradient(180deg, #ff946d 0%, #ff7d68 100%);
   border-radius: 10px;

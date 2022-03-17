@@ -1,6 +1,7 @@
 .jadoo__testimonial {
   display: flex;
   margin: 0 4rem;
+  position: relative;
 }
 
 .jadoo__testimonial-content h2 {
@@ -20,7 +21,20 @@
   line-height: 4rem;
   text-transform: capitalize;
   color: #14183e;
+  margin-bottom: 3rem;
 }
 
 .jadoo__testimonial-people {
+  width: 42rem;
+  height: 22rem;
+  margin: 0 6rem;
+}
+
+@media screen and (max-width: 880px) {
+  .jadoo__testimonial {
+    display: flex;
+    flex-direction: column;
+    margin: 1rem 3rem;
+    position: relative;
+  }
 }
